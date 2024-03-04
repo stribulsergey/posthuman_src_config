@@ -1,9 +1,13 @@
-Update system and install build tools
+### Update system and install build tools
+
+```
 sudo apt update
-
 sudo apt-get install git curl build-essential make jq gcc snapd chrony lz4 tmux unzip bc -y
+```
 
-Install Go
+### Install Go
+
+```
 rm -rf $HOME/go
 sudo rm -rf /usr/local/go
 cd $HOME
@@ -16,33 +20,40 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
 EOF
 source $HOME/.profile
 go version
+```
 
-Install Node
+### Install Node
+
+```
 cd $HOME
-
 rm -rf gaia
-
 git clone https://github.com/cosmos/gaia.git
-
 cd gaia
-
 git checkout v14.1.0
-
 make install
 gaiad version
+```
 
-Initialize Node
+### Initialize Node
 Replace NodeName with your own moniker.
-
+```
 gaiad init NodeName --chain-id=cosmoshub-4
+```
 
-Download Genesis
+### Download Genesis
+```
 curl -Ls https://ss.cosmos.nodestake.org/genesis.json > $HOME/.gaia/config/genesis.json 
+```
 
-Download addrbook
+### Download addrbook
+
+```
 curl -Ls https://ss.cosmos.nodestake.org/addrbook.json > $HOME/.gaia/config/addrbook.json
+```
 
-Create Service
+### Create Service
+
+```
 sudo tee /etc/systemd/system/gaiad.service > /dev/null <<EOF
 [Unit]
 Description=gaiad Daemon
@@ -58,12 +69,17 @@ WantedBy=multi-user.target
 EOF
 sudo systemctl daemon-reload
 sudo systemctl enable gaiad
+```
 
-Download Snapshot(optional)
+### Download Snapshot(optional)
+```
 SNAP_NAME=$(curl -s https://ss.cosmos.nodestake.org/ | egrep -o ">20.*\.tar.lz4" | tr -d ">")
-
 curl -o - -L https://ss.cosmos.nodestake.org/${SNAP_NAME}  | lz4 -c -d - | tar -x -C $HOME/.gaiad
+```
 
-Launch Node
+### Launch Node
+
+```
 sudo systemctl restart gaiad
 journalctl -u gaiad -f
+```
