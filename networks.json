@@ -6,7 +6,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
     "type": "mainnet",
     "stake": "",
-    "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
+    "services": [ "links" ]
   },
   {
     "name": "osmosis",
