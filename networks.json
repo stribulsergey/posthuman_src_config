@@ -1,7 +1,7 @@
 [
   {
     "name": "cosmoshub",
-    "chain_id": "",
+    "chain_id": "cosmoshub-4",
     "title": "Cosmos Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
     "type": "mainnet",
@@ -10,7 +10,7 @@
   },
   {
     "name": "osmosis",
-    "chain_id": "",
+    "chain_id": "osmosis-1",
     "title": "Osmosis",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
     "type": "mainnet",
@@ -19,7 +19,7 @@
   },
   {
     "name": "dymension",
-    "chain_id": "",
+    "chain_id": "dymension_1100-1",
     "title": "Dymension Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "type": "mainnet",
@@ -28,7 +28,7 @@
   },
   {
     "name": "omniflixhub",
-    "chain_id": "",
+    "chain_id": "omniflixhub-1",
     "title": "OmniFlix",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
     "type": "mainnet",
