@@ -6,20 +6,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
     "type": "mainnet",
     "stake": "",
-    "services": {
-      "explorer": "",
-      "restake": "",
-      "guide": "",
-      "rpc": "",
-      "api": "",
-      "grpc": "",
-      "genesis_file": "",
-      "addrbook": "",
-      "seed_node": "",
-      "peers": "",
-      "state_sync": "",
-      "snapshot": ""
-    }
+    "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   },
   {
     "name": "osmosis",
@@ -28,20 +15,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
     "type": "mainnet",
     "stake": "",
-    "services": {
-      "explorer": "",
-      "restake": "",
-      "guide": "",
-      "rpc": "",
-      "api": "",
-      "grpc": "",
-      "genesis_file": "",
-      "addrbook": "",
-      "seed_node": "",
-      "peers": "",
-      "state_sync": "",
-      "snapshot": ""
-    }
+    "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   },
   {
     "name": "dymension",
@@ -50,20 +24,7 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "type": "mainnet",
     "stake": "",
-    "services": {
-      "explorer": "",
-      "restake": "",
-      "guide": "",
-      "rpc": "",
-      "api": "",
-      "grpc": "",
-      "genesis_file": "",
-      "addrbook": "",
-      "seed_node": "",
-      "peers": "",
-      "state_sync": "",
-      "snapshot": ""
-    }
+    "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   },
   {
     "name": "omniflixhub",
@@ -72,19 +33,6 @@
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
     "type": "mainnet",
     "stake": "",
-    "services": {
-      "explorer": "",
-      "restake": "",
-      "guide": "",
-      "rpc": "",
-      "api": "",
-      "grpc": "",
-      "genesis_file": "",
-      "addrbook": "",
-      "seed_node": "",
-      "peers": "",
-      "state_sync": "",
-      "snapshot": ""
-    }
+    "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   }
 ]
