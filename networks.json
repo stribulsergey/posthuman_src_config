@@ -5,7 +5,7 @@
     "title": "Cosmos Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
     "type": "mainnet",
-    "stake": "",
+    "stake": "https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper157v7tczs40axfgejp2m43kwuzqe0wsy0rv8puv",
     "services": [ "links", "guide" ]
   },
   {
@@ -14,7 +14,7 @@
     "title": "Osmosis",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg",
     "type": "mainnet",
-    "stake": "",
+    "stake": "https://wallet.keplr.app/chains/osmosis?modal=validator&chain=osmosis-1&validator_address=osmovaloper1e8238v24qccht9mqc2w0r4luq462yxttfpaeam",
     "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   },
   {
@@ -23,7 +23,7 @@
     "title": "Dymension Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.svg",
     "type": "mainnet",
-    "stake": "",
+    "stake": "https://wallet.keplr.app/chains/dymension?modal=validator&chain=dymension_1100-1&validator_address=dymvaloper1lsjs7pwll7pqm40namkyx3e5qdwg0v0swrshud",
     "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   },
   {
@@ -32,7 +32,7 @@
     "title": "OmniFlix",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg",
     "type": "mainnet",
-    "stake": "",
+    "stake": "https://wallet.keplr.app/chains/omniflix?modal=validator&chain=omniflixhub-1&validator_address=omniflixvaloper1s3achxs70ysg8pf9xqyytu0m4had60khpuccxl",
     "services": [ "explorer", "restake", "guide", "rpc", "api", "grpc", "genesis_file", "addrbook", "seed_node", "peers", "state_sync", "snapshot" ]
   }
 ]
