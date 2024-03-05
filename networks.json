@@ -1,6 +1,6 @@
 [
   {
-    "name": "cosmoshub",
+    "name": "cosmos",
     "chain_id": "cosmoshub-4",
     "title": "Cosmos Hub",
     "icon": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg",
